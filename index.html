@@ -195,12 +195,12 @@ function buildDetailRow(r, colspan){
       <div>
         <h4>✅ รายการที่ได้รับรอบนี้ (รวม ${fmt2(earnSum)} ฿)</h4>
         ${lineItemsHTML(r.earnings)}
-        <div class="summary-line"><span>รวมเงินได้ (ตามชีท)</span><span>${fmt2(r.total_income)} ฿</span></div>
+        <div class="summary-line"><span>รวมเงินได้</span><span>${fmt2(r.total_income)} ฿</span></div>
       </div>
       <div>
         <h4>🔻 รายการที่ถูกหักรอบนี้ (รวม ${fmt2(dedSum)} ฿)</h4>
         ${lineItemsHTML(r.deductions)}
-        <div class="summary-line"><span>รวมเงินหัก (ตามชีท)</span><span>${fmt2(r.total_deduction)} ฿</span></div>
+        <div class="summary-line"><span>รวมเงินหัก</span><span>${fmt2(r.total_deduction)} ฿</span></div>
       </div>
     </div>
     <div class="summary-line" style="border-top:none;margin-top:10px;"><span>รายได้สุทธิ (Net)</span><span>${fmt2(r.net_income)} ฿</span></div>
